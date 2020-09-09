@@ -46,3 +46,4 @@ if __name__ == "__main__":
         print("打扰了，我选华为")
     else:
         print("我爱华为，我选苹果")
+        
