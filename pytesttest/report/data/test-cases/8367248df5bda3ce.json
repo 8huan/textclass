@@ -1,0 +1,61 @@
+{
+  "uid" : "8367248df5bda3ce",
+  "name" : "test_03_login_success_by_5username",
+  "fullName" : "case.test_02_login#test_03_login_success_by_5username",
+  "historyId" : "21da5b7f9dd90145c9f138206232b38f",
+  "time" : {
+    "start" : 1599913603473,
+    "stop" : 1599913603554,
+    "duration" : 81
+  },
+  "description" : "\n        登陆成功的测试用例\n    ",
+  "descriptionHtml" : "<pre><code>    登陆成功的测试用例\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 401 == 200\n +  where 200 = int(200.0)",
+  "statusTrace" : "def test_03_login_success_by_5username():\n        \"\"\"\n            登陆成功的测试用例\n        \"\"\"\n        data_res = read_excel(\"data/测谈网测试用例.xlsx\", \"登录\")\n        url = data_res[2][2]\n        data = eval(data_res[2][4])\n        header = eval(data_res[2][5])\n    \n        res = requests.post(url=url, json=data, headers=header)\n        assert res.status_code == 200\n>       assert res.json()[\"status\"] == int(data_res[2][6])\nE       assert 401 == 200\nE        +  where 200 = int(200.0)\n\ncase\\test_02_login.py:61: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CLSKU9TE"
+  }, {
+    "name" : "thread",
+    "value" : "15976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_02_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8367248df5bda3ce.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 12 20:26:42 CST 2020","Sat Sep 12 20:26:43 CST 2020","89","case","test_01_index","","","","test_02_tjjc",""
+"failed","Sat Sep 12 20:26:43 CST 2020","Sat Sep 12 20:26:43 CST 2020","81","case","test_02_login","","","","test_03_login_success_by_5username","
+        登陆成功的测试用例
+    "
+"passed","Sat Sep 12 20:26:42 CST 2020","Sat Sep 12 20:26:42 CST 2020","86","case","test_01_index","","","","test_01_lbt",""
+"passed","Sat Sep 12 20:26:43 CST 2020","Sat Sep 12 20:26:43 CST 2020","89","case","test_02_login","","","","test_02_login_failed_by_error_username",""
+"passed","Sat Sep 12 20:26:43 CST 2020","Sat Sep 12 20:26:43 CST 2020","294","case","test_03_inspirer","","","","test_01_fblg",""
+"passed","Sat Sep 12 20:26:43 CST 2020","Sat Sep 12 20:26:43 CST 2020","297","case","test_02_login","","","","test_01_login_success",""
