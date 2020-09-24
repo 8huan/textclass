@@ -17,3 +17,4 @@ filepath = "./report/report.html" # 保存的相对路径
 with open(filepath, "wb") as f: # w表示文件存在就替换 不存在就新建，b表示以二进制的方式输入（是固定的）；把文件的把柄给f
     runner = HTMLTestRunner(stream=f, title=title, description=descr)
     runner.run(testcase) # 调用run方法，运行所有的测试用例
+    
